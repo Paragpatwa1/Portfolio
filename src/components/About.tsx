@@ -35,7 +35,7 @@ export default function About() {
               take on challenging projects.
             </p>
             <div className="flex flex-wrap gap-3 mt-8">
-              {['React', 'Node.js', 'MongoDB', 'PostgreSQL', 'TypeScript', 'Python'].map((tech) => (
+              {['React.js', 'Node.js', 'Express.js', 'Mongodb', 'Java', 'Javascript','Sql'].map((tech) => (
                 <span
                   key={tech}
                   className="px-4 py-2 bg-gray-800/50 backdrop-blur-sm text-purple-400 rounded-full text-sm border border-purple-400/20"
@@ -53,10 +53,12 @@ export default function About() {
             className="grid grid-cols-2 gap-6"
           >
             {[
-              { icon: Code, title: 'Frontend', desc: 'React, Vue, Angular' },
-              { icon: Database, title: 'Backend', desc: 'Node.js, Python, Java' },
+              { icon: Code, title: 'Frontend', desc: 'React.js, Tailwind, Bootstrap' },
+              { icon: Database, title: 'Backend', desc: 'Node.js, Express.js, Java' },
               { icon: Globe, title: 'Web Tech', desc: 'HTML5, CSS3, JavaScript' },
-              { icon: Smartphone, title: 'Mobile', desc: 'React Native, Flutter' }
+              { icon: Database, title: 'Database', desc: 'SQL, MongoDB' }
+
+       
             ].map((item, index) => (
               <motion.div
                 key={item.title}

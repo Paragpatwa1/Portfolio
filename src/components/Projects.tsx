@@ -5,27 +5,27 @@ export default function Projects() {
   const projects = [
     {
       title: 'E-Commerce Platform',
-      description: 'Full-stack e-commerce solution with React, Node.js, and MongoDB. Features include user authentication, payment integration, and admin dashboard.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Stripe'],
+      description: 'Built a full-stack E-Commerce platform using React, Node.js, and MongoDB, featuring secure user authentication, product catalog, shopping cart functionality, and an intuitive admin dashboard for product and order management. Designed to provide a seamless and responsive shopping experience for users with efficient tools for administrators.',
+      technologies: ['React.js', 'Node.js', 'MongoDB', 'Express','Bootstrap'],
       image: '/1.webp'
     },
     
-    {
-      title: 'Task Management App',
-      description: 'Collaborative task management application with real-time updates, drag-and-drop functionality, and team collaboration features.',
-      technologies: ['React', 'Socket.io', 'Express', 'PostgreSQL'],
-      image: 'https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800'
+     {
+      title: 'Mobile Platform Website',
+      description: "Built a responsive website using HTML, CSS, JavaScript, and Bootstrap, enhanced with React.js for a dynamic, component-based UI. Features reusable components, smooth routing, and interactive elements for a seamless user experience across all devices.",
+      technologies: ['Html', 'Css', 'Javascript', 'Bootstrap','React.js'],
+      image: '/5.webp'
     },
     {
-      title: 'Weather Dashboard',
-      description: 'Beautiful weather application with interactive maps, forecasts, and location-based weather data using modern UI components.',
-      technologies: ['React', 'TypeScript', 'API Integration', 'Charts.js'],
-      image: 'https://images.pexels.com/photos/1118873/pexels-photo-1118873.jpeg?auto=compress&cs=tinysrgb&w=800'
+      title: 'Currency-Conveter',
+      description: "Developed an intuitive Currency Converter application with a clean user interface, allowing users to quickly and accurately convert amounts between multiple currencies. Built with HTML, CSS, and JavaScript, featuring responsive design, dropdown selection for currencies, and real-time conversion for a seamless experience.",
+      technologies: ['Html', 'Css', 'API Integration', 'Javascript.js'],
+      image: '/9.png'
     },
     {
       title: 'Portfolio Website',
       description: 'Modern portfolio website with Three.js animations, responsive design, and smooth user interactions.',
-      technologies: ['React', 'Three.js', 'Framer Motion', 'Tailwind CSS'],
+      technologies: ['React', 'Bootstrap.js', , 'Tailwind CSS'],
       image: 'https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=800'
     }
   ];

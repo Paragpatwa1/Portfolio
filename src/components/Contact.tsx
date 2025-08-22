@@ -31,8 +31,8 @@ export default function Contact() {
             
             <div className="space-y-6">
               {[
-                { icon: Mail, title: 'Email', info: 'parag.patwa@email.com' },
-                { icon: Phone, title: 'Phone', info: '+91 XXXXX XXXXX' },
+                { icon: Mail, title: 'Email', info: 'paragpatwa10@email.com' },
+                { icon: Phone, title: 'Phone', info: '+91 8770072967' },
                 { icon: MapPin, title: 'Location', info: 'India' }
               ].map((contact, index) => (
                 <motion.div

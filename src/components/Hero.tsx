@@ -1,10 +1,10 @@
-import { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
-import { ChevronDown } from 'lucide-react';
+import { useState, useEffect } from "react";
+import { motion } from "framer-motion";
+import { ChevronDown } from "lucide-react";
 
 export default function Hero() {
-  const [text, setText] = useState('');
-  const fullText = 'Full Stack Web Developer';
+  const [text, setText] = useState("");
+  const fullText = "Full Stack Web Developer";
 
   useEffect(() => {
     let index = 0;
@@ -30,6 +30,7 @@ export default function Hero() {
           <h1 className="text-6xl md:text-8xl font-bold bg-gradient-to-r from-purple-400 to-pink-600 bg-clip-text text-transparent">
             Parag Patwa
           </h1>
+
           <div className="h-12">
             <p className="text-2xl md:text-3xl text-gray-300 font-light">
               {text}
@@ -37,7 +38,10 @@ export default function Hero() {
             </p>
           </div>
           <p className="text-lg text-gray-400 max-w-2xl mx-auto">
-            MCA Graduate from LNCT with expertise in modern web technologies
+            "Hi There, I’m Parag Patwa — a Full Stack Web Developer with
+            expertise in React, Node,Express,Mongodb and modern web
+            technologies. Passionate about creating clean, responsive, and
+            impactful applications."
           </p>
           <motion.div
             initial={{ opacity: 0 }}
@@ -45,16 +49,18 @@ export default function Hero() {
             transition={{ delay: 1.5, duration: 0.8 }}
             className="flex gap-4 justify-center"
           >
-            <motion.a
-      href="/DevParag.pdf"
-      download="/DevParag.pdf"
-      whileHover={{ scale: 1.05 }}
-      whileTap={{ scale: 0.95 }}
-      className="px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full font-medium hover:shadow-lg transition-all duration-300"
-    >
-      Download My Resume
-    </motion.a>
+           <motion.a
+  href="/Devlop.parag.pdf"
+  download="Devlop.parag.pdf"
+  whileHover={{ scale: 1.05 }}
+  whileTap={{ scale: 0.95 }}
+  className="px-8 py-3 bg-gradient-to-r from-purple-600 to-blue-600 text-white rounded-full font-medium hover:shadow-lg transition-all duration-300"
+>
+  Download My Resume
+</motion.a>
+
             <motion.button
+              onClick={() => alert("📞 877002967")}
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
               className="px-8 py-3 border border-purple-400 text-purple-400 rounded-full font-medium hover:bg-purple-400 hover:text-white transition-all duration-300"

@@ -4,14 +4,16 @@ import { useState, useEffect } from 'react';
 export default function Skills() {
   const skills = [
     { name: 'React.js', level: 90, color: 'from-blue-500 to-blue-600' },
-     { name: 'Next.js', level: 90, color: 'from-blue-500 to-blue-600' },
+    
     { name: 'Node.js', level: 85, color: 'from-green-500 to-green-600' },
+     { name: 'Express.js', level: 85, color: 'from-green-500 to-green-600' },
+    
     { name: 'JavaScript', level: 92, color: 'from-yellow-500 to-yellow-600' },
-    { name: 'TypeScript', level: 80, color: 'from-blue-600 to-blue-700' },
+    { name: 'Bootstrap', level: 80, color: 'from-blue-600 to-blue-700' },
     { name: 'MongoDB', level: 75, color: 'from-green-600 to-green-700' },
-    { name: 'PostgreSQL', level: 78, color: 'from-indigo-500 to-indigo-600' },
-    { name: 'Python', level: 82, color: 'from-purple-500 to-purple-600' },
-    { name: 'CSS/SCSS', level: 88, color: 'from-pink-500 to-pink-600' }
+    { name: 'SQL', level: 78, color: 'from-indigo-500 to-indigo-600' },
+    { name: 'Java', level: 82, color: 'from-purple-500 to-purple-600' },
+    { name: 'HTML/CSS', level: 88, color: 'from-pink-500 to-pink-600' }
   ];
 
   const [animatedSkills, setAnimatedSkills] = useState(skills.map(skill => ({ ...skill, currentLevel: 0 })));
